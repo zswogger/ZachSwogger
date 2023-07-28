@@ -3,19 +3,24 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="row">
-        <div class="intro-div col-md-3">
-            <div class="row-md">
-                <img id="headshot" src="\Images\Headshot.jpg" />
-                <h3>Zach Swogger</h3>
-                <h5>Full Stack Developer</h5>
+        <div class="headshot-container col-md-3">
+            <div class="intro-div">
+                <div class="row-md">
+                    <img id="headshot" src="\Images\Headshot.jpg" />
+                    <h3>Zach Swogger</h3>
+                    <h5>Full Stack Developer</h5>
+                </div>
+                <div class="row-md">
+                    <a href="https://www.linkedin.com/in/zachary-swogger-b5a143159/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="https://www.github.com/zswogger" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: white;"></i></a>
+                    <a href="mailto:zachswogger@gmail.com"><i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="tel:+17173801381"><i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="download-resume-div">
+                    <asp:Button ID="downloadResume" class="download-resume" Text="Download Resume" OnClick="DownloadResume_Click" runat="server" />
+                </div>
             </div>
-            <div class="row-md">
-                <a href="https://www.linkedin.com/in/zachary-swogger-b5a143159/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
-                <a href="https://www.github.com/zswogger" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: white;"></i></a>
-            </div>
-            <div class="download-resume-div">
-                <asp:Button ID="downloadResume" class="download-resume" Text="Download Resume" OnClick="DownloadResume_Click" runat="server" />
-            </div>
+            <h2 style="color: white;">Hello</h2>
         </div>
 
         <div id="about-me" class="col-md-8">
@@ -51,7 +56,7 @@
                     <p class="resume-header">Skills</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row rating-container">
                 <b>Communication</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -67,7 +72,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>Debugging</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -83,7 +88,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>C#</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -99,7 +104,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>.NET</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -115,7 +120,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>QA</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -131,7 +136,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>HTML</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -147,7 +152,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>Javascript</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -163,7 +168,7 @@
                 </div>
             </div>
             <br />
-            <div class="row">
+            <div class="row rating-container">
                 <b>SQL</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
