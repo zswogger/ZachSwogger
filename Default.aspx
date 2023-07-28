@@ -20,7 +20,6 @@
                     <asp:Button ID="downloadResume" class="download-resume" Text="Download Resume" OnClick="DownloadResume_Click" runat="server" />
                 </div>
             </div>
-            <h2 style="color: white;">Hello</h2>
         </div>
 
         <div id="about-me" class="col-md-8">
