@@ -1,0 +1,155 @@
+﻿body {
+    font-family: Georgia, serif;
+}
+
+.intro-div {
+    border-radius: 25px;
+    background-color: var(--accent-color);
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+#headshot {
+    width: 90%;
+    border-radius: 25px;
+}
+
+.intro-div {
+    color: var(--font-color);
+    margin-right: 15px;
+}
+
+.download-resume-div {
+    background-color: var(--reverse-background-color);
+    margin: -15px;
+    margin-top: 5px;
+    border-radius: 0px 0px 25px 25px;
+    padding: 5px;
+}
+
+.download-resume {
+    border-radius: 25px;
+    background-color: #000;
+    color: var(--font-color);
+    border: 0px;
+}
+
+#about-me, #resume-div, #skills {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+i {
+    margin: 5px;
+}
+
+#resume-div {
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+
+    .resume-header {
+        color: grey;
+        font: bold;
+        font-size: 20px;
+    }
+
+    #education {
+        padding-left: 25px;
+    }
+
+#skills {
+    padding: 20px;
+    margin-right: 15px;
+}
+
+/* Circular rating system */
+.shape-rating {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    /* stars */
+    .shape-rating > .star-round {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: var(--star-round);
+        height: var(--star-round);
+        position: relative;
+        border: none;
+        font: normal 100%/normal Arial, Helvetica, sans-serif;
+        color: rgba(0,0,0,1);
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        background: #1abc9c;
+    }
+
+        .shape-rating > .star-round:not(:first-child) {
+            margin-left: calc(var(--star-round)/2);
+        }
+
+        .shape-rating > .star-round:before {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            width: var(--star-round);
+            height: var(--star-round);
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            border: none;
+            font: normal 100%/normal Arial, Helvetica, sans-serif;
+            color: rgba(0,0,0,1);
+            -o-text-overflow: clip;
+            text-overflow: clip;
+            background: #1abc9c;
+            text-shadow: none;
+            -webkit-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
+        }
+
+        .shape-rating > .star-round:after {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            width: var(--star-round);
+            height: var(--star-round);
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            border: none;
+            font: normal 100%/normal Arial, Helvetica, sans-serif;
+            color: rgba(0,0,0,1);
+            -o-text-overflow: clip;
+            text-overflow: clip;
+            background: #1abc9c;
+            text-shadow: none;
+            -webkit-transform: rotateZ(60deg);
+            transform: rotateZ(60deg);
+        }
+    /* circles */
+    .shape-rating .circle {
+        height: var(--circleDiameter);
+        width: var(--circleDiameter);
+        border-radius: 50%;
+        box-shadow: 0 0 0 calc(var(--circleDiameter)/12 * 1) lightgrey;
+    }
+
+        .shape-rating .circle:not(:first-child) {
+            margin-left: 6px;
+        }
+
+    .shape-rating.color > .full {
+        background: var(--accent-color);
+    }
+
+    .shape-rating.color > .half {
+        background: linear-gradient(to right, var(--accent-color) 50%, transparent 50.01%);
+    }
