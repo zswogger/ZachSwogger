@@ -190,34 +190,34 @@
                         <p class="resume-header">Personal Information</p>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Name</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             Zach Swogger
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <b>Location</b>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-9">
                             Tampa, FL
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Email</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             ZachSwogger@gmail.com
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Phone</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             (717) 380-1381
                         </div>
                     </div>
@@ -227,34 +227,34 @@
                         <p class="resume-header">Education</p>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
-                            <b>Institution</b>
+                        <div class="col-md-3">
+                            <b>College</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             Grand Canyon University
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Degree</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             Bachelor of Science
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Major</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             Computer Programming
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-3">
                             <b>Awards</b>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-md-9">
                             Cum Laude
                         </div>
                     </div>
@@ -270,12 +270,12 @@
                                 <b>Full Stack Developer</b>
                             </div>
                             <div class="col-md-3">
-                                October 2022 - July 2023
+                                Oct 2022 - July 2023
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h5>Green By Phone Inc.</h5>
+                                <h6>Green By Phone Inc.</h6>
                                 <ul>
                                     <li>Develop new features desired by management and users to increase application usability</li>
                                     <li>Debug broken features reported by management and users to restore application functionality</li>
@@ -294,12 +294,12 @@
                                 <b>Head of Information Technology</b>
                             </div>
                             <div class="col-md-3">
-                                June 2021 - October 2022
+                                June 2021 - Oct 2022
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h5>Linden Hall School for Girls</h5>
+                                <h6>Linden Hall School for Girls</h6>
                                 <ul>
                                     <li>Personally responsible for a 15% reduction in cost from MSP's for 3rd part support</li>
                                     <li>Advise Head of School on all IT related matters</li>
@@ -321,7 +321,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h5>County of Lancaster</h5>
+                                <h6>County of Lancaster</h6>
                                 <ul>
                                     <li>Broke down and evaluated user problems, using personal expertise and probing questions</li>
                                     <li>Configured hardware, devices and software to set up workstations for employee.</li>
@@ -343,7 +343,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h5>US Army</h5>
+                                <h6>US Army</h6>
                                 <ul>
                                     <li>Configured, tested, and maintained garrison and tactical network equipment to achieve mission success</li>
                                     <li>Removed malware, ransomware and other threats from laptops and desktop systems</li>

@@ -1,0 +1,46 @@
+﻿body {
+
+}
+
+.card {
+    margin-top: 25px;
+    border: 1px solid grey;
+}
+
+.card-img-top {
+    max-height: 246px;
+}
+
+.jumbotron {
+    color: var(--font-color);
+    background-color: var(--light-background-color);
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border: var(--accent-color);
+}
+
+    .btn-primary:hover {
+        background-color: var(--accent-color);
+        filter: brightness(80%);
+    }
+
+.card-body {
+    color: var(--font-color);
+    background-color: var(--light-background-color);
+}
+
+.slick .card {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.zoom:hover {
+    transform: scale(2);
+    transform-origin: top center;
+}
