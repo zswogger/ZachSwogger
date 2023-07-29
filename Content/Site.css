@@ -61,7 +61,13 @@ textarea {
     .dropdown-item:hover {
         background-color: var(--btn-hover);
         color: var(--accent-color);
+        filter: brightness(80%);
     }
+
+.disclaimer {
+    font-size: 12px;
+    font-style: italic;
+}
 
 /* Dark Mode Toggle */
 .switch {

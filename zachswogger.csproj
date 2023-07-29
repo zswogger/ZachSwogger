@@ -128,11 +128,44 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Files\Zachary Swogger Resume.pdf" />
+    <Content Include="Images\GabPaySettingsPage.jpg" />
+    <Content Include="Images\GabPayHomeScreen.jpg" />
+    <Content Include="Plugins\slick-1.8.1\bower.json" />
+    <Content Include="Plugins\slick-1.8.1\component.json" />
+    <Content Include="Plugins\slick-1.8.1\CONTRIBUTING.markdown" />
+    <Content Include="Plugins\slick-1.8.1\ISSUE_TEMPLATE.md" />
+    <Content Include="Plugins\slick-1.8.1\LICENSE" />
+    <Content Include="Plugins\slick-1.8.1\Makefile" />
+    <Content Include="Plugins\slick-1.8.1\package.json" />
+    <Content Include="Plugins\slick-1.8.1\README.markdown" />
+    <Content Include="Plugins\slick-1.8.1\slick.jquery.json" />
+    <Content Include="Plugins\slick-1.8.1\slick\config.rb" />
+    <Content Include="Plugins\slick-1.8.1\slick\fonts\slick.eot" />
+    <Content Include="Plugins\slick-1.8.1\slick\fonts\slick.ttf" />
+    <Content Include="Plugins\slick-1.8.1\slick\fonts\slick.woff" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick-theme.less" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick-theme.scss" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick.less" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\GabPayDark.jpg" />
     <Content Include="Images\GabPayLight.jpg" />
     <Content Include="Images\Headshot.jpg" />
+    <Content Include="Plugins\slick-1.8.1\.gitignore" />
+    <Content Include="Plugins\slick-1.8.1\index.html" />
+    <Content Include="Plugins\slick-1.8.1\slick\ajax-loader.gif" />
+    <Content Include="Plugins\slick-1.8.1\slick\fonts\slick.svg" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick-theme.css" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick.css" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick.js" />
+    <Content Include="Plugins\slick-1.8.1\slick\slick.min.js" />
     <Content Include="Projects\GotMoney.aspx" />
+    <Content Include="Projects\GotMoney.aspx.css">
+      <DependentUpon>GotMoney.aspx</DependentUpon>
+    </Content>
+    <Content Include="Projects\GotMoney.aspx.js">
+      <DependentUpon>GotMoney.aspx</DependentUpon>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
