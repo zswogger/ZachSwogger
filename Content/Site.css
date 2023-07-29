@@ -8,10 +8,12 @@ body {
 :root {
     --background-color: #222;
     --accent-color: #316a85;
+    --accent-hover: #3e718a;
     --light-background-color: #363636;
     --font-color: #bab6b6;
     --reverse-background-color: #FFF;
     --btn-color: #000000;
+    --btn-hover: #424242;
     --circleDiameter: 1rem;
     --star-round: 1rem;
 }
@@ -23,6 +25,7 @@ body {
     --font-color: #000000;
     --reverse-background-color: #000000;
     --btn-color: #FFF;
+    --btn-hover: #e1e5eb;
 }
 
 /* Wrapping element */
@@ -40,12 +43,25 @@ textarea {
 }
 
 .navbar {
-    background-color: var(--accent-color);
+    background-color: var(--accent-color) !important;
 }
 
 .navbar-toggle {
     background-color: var(--background-color);
 }
+
+.dropdown-menu {
+    background-color: var(--light-background-color);
+}
+
+.dropdown-item {
+    color: var(--reverse-background-color);
+}
+
+    .dropdown-item:hover {
+        background-color: var(--btn-hover);
+        color: var(--accent-color);
+    }
 
 /* Dark Mode Toggle */
 .switch {
@@ -54,6 +70,7 @@ textarea {
     width: 34px;
     height: 20px;
     margin-top: 14px;
+    margin-left: 5px;
 }
 
     /* Hide default HTML checkbox */
