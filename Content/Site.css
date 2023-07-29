@@ -107,3 +107,6 @@ input:checked + .slider {
         border-radius: 50%;
     }
 
+.dropdown-menu {
+    padding-left: 5px;
+}
