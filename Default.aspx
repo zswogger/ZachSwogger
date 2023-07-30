@@ -118,24 +118,7 @@
                     <div class="circle"></div>
                 </div>
             </div>
-            <br />
-            <div class="row rating-container">
-                <b>QA</b>
-                <div class="shape-rating color">
-                    <div class="circle full"></div>
-                    <div class="circle full"></div>
-                    <div class="circle full"></div>
-                    <div class="circle full"></div>
-                    <div class="circle full"></div>
-                    <div class="circle full"></div>
-                    <div class="circle half"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
-            </div>
-            <br />
-            <div class="row rating-container">
+            <br /><div class="row rating-container">
                 <b>HTML</b>
                 <div class="shape-rating color">
                     <div class="circle full"></div>
@@ -143,8 +126,8 @@
                     <div class="circle full"></div>
                     <div class="circle full"></div>
                     <div class="circle full"></div>
-                    <div class="circle half"></div>
-                    <div class="circle"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
@@ -159,8 +142,24 @@
                     <div class="circle full"></div>
                     <div class="circle full"></div>
                     <div class="circle full"></div>
-                    <div class="circle half"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
                     <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <br />
+            <div class="row rating-container">
+                <b>QA</b>
+                <div class="shape-rating color">
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
+                    <div class="circle full"></div>
+                    <div class="circle half"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
