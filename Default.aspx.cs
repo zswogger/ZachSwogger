@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using zachswogger.Classes;
 
 namespace zachswogger
 {
@@ -12,7 +13,7 @@ namespace zachswogger
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            GeoLocator.getLocation();
         }
 
         public void DownloadResume_Click(Object sender, EventArgs e)
