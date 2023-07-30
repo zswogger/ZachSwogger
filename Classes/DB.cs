@@ -39,7 +39,7 @@ namespace zachswogger.Classes
                     return false;
                 }    
 
-                string connstring = string.Format("Server={0}; Port= {4}; database={1}; UID={2}; password={3}", Server, DatabaseName, UserName, Password, Port);
+                string connstring = string.Format("Server={0}; Port= {1}; database={2}; UID={3}; password={4}", Server, Port, DatabaseName, UserName, Password);
                 Connection = new MySqlConnection(connstring);
                 Connection.Open();
             }

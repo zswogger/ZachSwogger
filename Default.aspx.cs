@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Web;
+using System.Web.Script.Services;
+using System.Web.Services;
 using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using zachswogger.Classes;
+using Microsoft.Ajax.Utilities;
+using static zachswogger.Classes.General;
 
 namespace zachswogger
 {
@@ -13,7 +18,7 @@ namespace zachswogger
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GeoLocator.getLocation();
+            //GeoLocator.getLocation();
         }
 
         public void DownloadResume_Click(Object sender, EventArgs e)
@@ -23,5 +28,8 @@ namespace zachswogger
             Response.TransmitFile(Server.MapPath("~/Files/Zachary Swogger Resume.pdf"));
             Response.End();
         }
+
+        [WebMethod]
+        public static ajaxResponse contactMe(string message, string contact) => zachswogger.Classes.Contact.contactMe(message, contact);
     }
 }

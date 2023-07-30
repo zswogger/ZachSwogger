@@ -266,7 +266,9 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Classes\Contact.cs" />
     <Compile Include="Classes\DB.cs" />
+    <Compile Include="Classes\General.cs" />
     <Compile Include="Classes\GeoLocator.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

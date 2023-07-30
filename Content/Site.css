@@ -69,6 +69,44 @@ textarea {
     font-style: italic;
 }
 
+.modal-content {
+    color: var(--font-color);
+    background-color: var(--light-background-color);
+}
+
+.modal-body {
+    padding-left: 20%;
+}
+
+.btn-primary, .btn-primary[disabled] {
+    background-color: var(--accent-color);
+    border: var(--accent-color);
+}
+
+    .btn-primary:hover {
+        background-color: var(--accent-color);
+        filter: brightness(80%);
+    }
+
+.close {
+    color: var(--font-color);
+    background-color: var(--reverse-background-color);
+}
+
+.toast-container {
+   z-index: 99999;
+}
+
+.toast-header.toast-success {
+    color: black;
+    background-color: #00d181;
+}
+
+.toast-header.toast-error {
+    color: black;
+    background-color: #ba0404;
+}
+
 /* Dark Mode Toggle */
 .switch {
     position: relative;
