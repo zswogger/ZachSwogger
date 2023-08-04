@@ -33,14 +33,13 @@ namespace zachswogger.Classes
             try
             {
                 MailMessage mailMessage = new MailMessage();
-                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
-                mailMessage.From = new MailAddress("zachswoggerwebsite@gmail.com");
+                SmtpClient smtpClient = new SmtpClient("zachswogger.com");
+                mailMessage.From = new MailAddress("contactZach@zachswogger.com");
                 mailMessage.To.Add("Zachswogger@gmail.com");
                 mailMessage.Subject = "New contact request from zachswogger.com";
                 mailMessage.Body = "Message:\n" + body + "\n\nContact Info:\n" + contactInfo;
-                smtpClient.Port = 587;
-                smtpClient.Credentials = new System.Net.NetworkCredential("zachswoggerwebsite@gmail.com", "dujhyxkorgoqvshe");
-                smtpClient.EnableSsl = true;
+                smtpClient.Port = 25;
+                smtpClient.Credentials = new System.Net.NetworkCredential("contactZach@zachswogger.com", "ie*9Tv725");
                 smtpClient.Send(mailMessage);
 
                 response.success = true;
@@ -50,7 +49,7 @@ namespace zachswogger.Classes
             catch (Exception ex)
             {
                 response.success = false;
-                response.message = "An unexpected error occurred. Please try again later.";
+                response.message = ex.InnerException.ToString();
                 return response;
             }
         }
