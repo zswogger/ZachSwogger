@@ -49,7 +49,7 @@ namespace zachswogger.Classes
             catch (Exception ex)
             {
                 response.success = false;
-                response.message = ex.InnerException.ToString();
+                response.message = "An unexpected error occurred. Please try again later.";
                 return response;
             }
         }
