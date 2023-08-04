@@ -1,164 +1,74 @@
 ﻿body {
-    font-family: Georgia, serif;
+    color: white;
+    background: -webkit-gradient(linear, right top, left bottom, from(#6d3d30), to(#171c21)) fixed;
 }
 
-.intro-div {
-    background-color: var(--accent-color);
-    text-align: center;
-    margin-top: 15px;
-    padding: 15px;
+.split-page {
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 
-#headshot {
-    width: 90%;
+.list-item {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
     border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
-.headshot-container {
-    margin-right: 15px;
-    padding: 0px;
+    .list-item:hover {
+        filter: brightness(100%);
+        background-color: rgba(0,0,0,.2);
+    }
+
+p {
+    font-size: 14px;
 }
 
-.intro-div {
-    color: var(--font-color);
-}
-
-.download-resume-div {
-    background-color: var(--reverse-background-color);
-    margin: -15px;
-    margin-top: 5px;
-    padding-top: 18px;
-    height: 75px;
-}
-
-.download-resume {
-    background-color: var(--btn-color);
-    color: var(--font-color);
-    border: 0px;
-    width: 175px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-#about-me, #resume-div, #skills {
-    background-color: var(--light-background-color);
-    margin-top: 15px;
-    color: var(--font-color);
+.follow {
+    position: fixed;
+    max-width: 50%;
 }
 
 i {
     margin: 5px;
 }
 
-#resume-div {
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-right: 35px;
+.skill-pill {
+    background-color: rgba(189, 111, 89, .5);
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 5px;
+    margin-top: 5px;
 }
 
-    .resume-header {
-        color: grey;
-        font: bold;
-        font-size: 20px;
-    }
-
-    #education {
-        padding-left: 25px;
-    }
-
-#skills {
-    padding: 20px;
-    margin-right: 15px;
+.scroll {
+    box-shadow: inset 0 0 0 0 #6d3d30;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
 }
 
-.rating-container {
-    margin-left: 20px;
+    .scroll:hover {
+        box-shadow: inset 200px 0 0 0 #6d3d30;
+        color: white;
+    }
+
+#projects-dropdown {
+    display: none;
 }
 
-/* Circular rating system */
-.shape-rating {
-    display: flex;
-    flex-flow: row nowrap;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-    /* stars */
-    .shape-rating > .star-round {
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        width: var(--star-round);
-        height: var(--star-round);
-        position: relative;
-        border: none;
-        font: normal 100%/normal Arial, Helvetica, sans-serif;
-        color: rgba(0,0,0,1);
-        text-align: center;
-        -o-text-overflow: clip;
-        text-overflow: clip;
-        background: #1abc9c;
-    }
-
-        .shape-rating > .star-round:not(:first-child) {
-            margin-left: calc(var(--star-round)/2);
-        }
-
-        .shape-rating > .star-round:before {
-            -webkit-box-sizing: content-box;
-            -moz-box-sizing: content-box;
-            box-sizing: content-box;
-            width: var(--star-round);
-            height: var(--star-round);
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            border: none;
-            font: normal 100%/normal Arial, Helvetica, sans-serif;
-            color: rgba(0,0,0,1);
-            -o-text-overflow: clip;
-            text-overflow: clip;
-            background: #1abc9c;
-            text-shadow: none;
-            -webkit-transform: rotateZ(30deg);
-            transform: rotateZ(30deg);
-        }
-
-        .shape-rating > .star-round:after {
-            -webkit-box-sizing: content-box;
-            -moz-box-sizing: content-box;
-            box-sizing: content-box;
-            width: var(--star-round);
-            height: var(--star-round);
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            border: none;
-            font: normal 100%/normal Arial, Helvetica, sans-serif;
-            color: rgba(0,0,0,1);
-            -o-text-overflow: clip;
-            text-overflow: clip;
-            background: #1abc9c;
-            text-shadow: none;
-            -webkit-transform: rotateZ(60deg);
-            transform: rotateZ(60deg);
-        }
-    /* circles */
-    .shape-rating .circle {
-        height: var(--circleDiameter);
-        width: var(--circleDiameter);
-        border-radius: 50%;
-        box-shadow: 0 0 0 calc(var(--circleDiameter)/12 * 1) lightgrey;
-    }
-
-        .shape-rating .circle:not(:first-child) {
-            margin-left: 6px;
-        }
-
-    .shape-rating.color > .full {
-        background: var(--accent-color);
-    }
-
-    .shape-rating.color > .half {
-        background: linear-gradient(to right, var(--accent-color) 50%, transparent 50.01%);
-    }
+.faded {
+    filter: brightness(50%);
+}

@@ -18,7 +18,7 @@ namespace zachswogger
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //GeoLocator.getLocation();
+            
         }
 
         public void DownloadResume_Click(Object sender, EventArgs e)
