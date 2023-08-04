@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="list-item" style="width: 50%;">
+            <div class="list-item faded" style="width: 50%;">
                 <h4>Skills</h4>
                 <div class="skill-pill">
                     C#

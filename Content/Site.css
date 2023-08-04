@@ -109,6 +109,11 @@ textarea {
     background-color: #ba0404;
 }
 
+.toast-body {
+    background-color: #8f8c85;
+    border: none;
+}
+
 /* Dark Mode Toggle */
 .switch {
     position: relative;

@@ -23,7 +23,7 @@
     });
 
     $('#contactBtn').on('click', function () {
-
+        $(window).scrollTop($(".toast").offset().top);
         $('.toast').toast('hide');
         $('#contactSpinner').show();
         $('#contactBtn').attr('disabled', true);
