@@ -1,8 +1,10 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
+    font-family: Georgia, serif;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: var(--background-color);
+    color: white;
+    background: -webkit-gradient(linear, right top, left bottom, from(#6d3d30), to(#171c21)) fixed;
 }
 
 :root {
@@ -43,7 +45,7 @@ textarea {
 }
 
 .navbar {
-    background-color: var(--accent-color) !important;
+    background-color: rgba(var(--accent-color), 0) !important;
 }
 
 .navbar-toggle {

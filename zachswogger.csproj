@@ -161,6 +161,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="About.aspx.css" />
+    <Content Include="About.aspx.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -171,6 +173,7 @@
     <Content Include="Default.aspx.css">
       <DependentUpon>Default.aspx</DependentUpon>
     </Content>
+    <Content Include="Default.aspx.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -185,6 +188,7 @@
     <Content Include="Files\Zachary Swogger Resume.pdf" />
     <Content Include="Images\GabPaySettingsPage.jpg" />
     <Content Include="Images\GabPayHomeScreen.jpg" />
+    <Content Include="Images\icon.png" />
     <Content Include="Plugins\slick-1.8.1\bower.json" />
     <Content Include="Plugins\slick-1.8.1\component.json" />
     <Content Include="Plugins\slick-1.8.1\CONTRIBUTING.markdown" />
